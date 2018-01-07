@@ -1,0 +1,29 @@
+﻿
+
+1.基本语法：php-yufa
+
+2.运算符：php-yunsf
+
+3.三大流程控制：php-3daliucheng
+三大流程中有很多相关案例
+(if,switch,for,while,do while,)
+
+4.php-xunfan(循环相关的语句)
+4.1.循环相关的语句-break
+基本概念：表示结束前的for,while,do while,switchr的执行。
+break可以接受一个可选的数字参数来决定跳出几重循环。
+
+4.2.continue基本概念：
+continue用于结束本次循环剩余代码，重新开始新的一次循环（如果条件为真，就继续执行），
+continue后面也可以带数字，表示从第几次循环重新开始。
+
+4.3.goto语句基本概念：
+通过goto语句我们可以将程序跳转到指定的地方去执行：
+
+goto 标签：
+
+标签：
+语句：
+
+
+5.基本语法-常量
