@@ -1,0 +1,6 @@
+1.1.function-require_once:
+require,require_once,include,include_once的用法和区别
+一般使用require_once.
+
+2.函数的的调用过程。
+以及图解。

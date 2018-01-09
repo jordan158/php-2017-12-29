@@ -1,5 +1,5 @@
 ﻿1.循环相关的语句-break
-基本概念：表示结束前的for,while,do while,switchr的执行。
+基本概念：表示结束前的for,while,do while,switch的执行。
 break可以接受一个可选的数字参数来决定跳出几重循环。
 
 2.continue基本概念：
