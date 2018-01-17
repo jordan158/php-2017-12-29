@@ -1,0 +1,7 @@
+﻿array.php->数组创建方法，遍历方式，函数，删除数组元素，以及注意事项。
+array_chazhao.php->顺序查找和二分查找
+array_paixu.php->排序（冒泡，选择，插入，快速）
+
+array_yunsuan.php->数组运算和练习
+
+array2wei.php->二维数组

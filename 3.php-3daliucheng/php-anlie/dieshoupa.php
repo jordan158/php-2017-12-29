@@ -14,7 +14,7 @@ function killMonkeys($monkeys, $m){
     }
     echo $monkey . "号是最后一个";
 }
-$monkeys = range(0, 1000);
+$monkeys = range(0, 20);
 unset($monkeys['0']);
 $m = 6;
 killMonkeys($monkeys, $m);
