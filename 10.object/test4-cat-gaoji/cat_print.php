@@ -13,6 +13,8 @@ function selType(val){
 		table2.style.display="block";
 	}
 	
+	
+
 }
 
 
@@ -24,14 +26,14 @@ function selType(val){
 </head>
 <body>
 <h1>聪明猫</h1>
-<form action="cat_work.php" method="post">
+<form action="cat_work.php" method="post" >
 <input type="radio" name="sel"  value="aa" onclick="selType('jisuan')">四则运算
 <input type="radio" name="sel"  value="bb" onclick="selType('area')">计算矩形
 
 <!--style="display:block"表示按区块显示-->
 <table  id="table1" style="display:block">
-<tr><td>请输入第一个数</td><td><input type="text" name="num1"/></td></tr>
-<tr><td>请输入第一个数</td><td><input type="text" name="num2"/></td></tr>
+<tr><td>请输入第一个数</td><td><input type="text" id="num1" name="num1"/></td></tr>
+<tr><td>请输入第一个数</td><td><input type="text" id="num2" name="num2"/></td></tr>
 <tr><td>请输入运算符号</td><td>
 <select name="oper">
 <option value="+">+</option>

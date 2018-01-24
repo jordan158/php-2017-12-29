@@ -7,9 +7,9 @@
 需求，当我们操作静态变量的时候，我们可以考虑使用静态方法。<br/>
 <br/>
 2.静态方法的特点：<br/>
-2.1.静态方法只能操作静态变量。<br/>
-2.2.静态方法不能操作非静态变量。<br/>
-2.3.普通成员方法，既可以操作非静态和静态变量，<br/>
+2.1.静态方法只能操作静态变量和静态方法。不能操作非静态变量和静态方法<br/>
+2.2.成员方法，既可以操作非静态和静态变量以及静态方法。<br/>
+2.3.静态方法可以调用静态方法<br/>
 <br/>
 3.静态方法的访问：<br/>
 3.1.类名::类方法名 <br/>
@@ -36,6 +36,20 @@ class Student{
 	public static function getFee(){
 		return self::$fee;
 	}
+	//静态方法调用静态方法。
+	public static function getname(){
+		return self::getFee();
+		
+	}
+	public static function aa(){
+		echo "我是静态方法";
+		
+		
+	}
+	public function bb(){
+		echo "<br/>我是成员方法<br/>";
+		//self::aa();
+	}
 }
 
 //创建学生
@@ -52,7 +66,9 @@ echo "总学费=".Student::getFee();
 
 
 
+//成员方法调用方法
 
+$stu1->bb();
 
 
 

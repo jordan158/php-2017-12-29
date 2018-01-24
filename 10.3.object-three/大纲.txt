@@ -1,0 +1,7 @@
+1.object_three-fengzhuang.php->php面向对象编程封装。
+
+__set-and__get-function(访问protected和private属性)
+
+2.object_three-jichen.php->继承
+
+3.object_three-duotai.php->多态(重载，重写，魔术方法和常量)

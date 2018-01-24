@@ -5,7 +5,10 @@ $sel=$_REQUEST['sel'];
 //echo $sel;
 $cat1=new Cat(); 
 if($sel=="aa"){
+	//判断isset变量是否有值，如果有，则为true.
+	if(isset($_REQUEST['num1'])){
 	$num1=$_REQUEST['num1'];
+	}
 	$num2=$_REQUEST['num2'];
 	$oper=$_REQUEST['oper'];
 	//echo $num1."||".$num2."||".$oper;
