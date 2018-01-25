@@ -70,3 +70,11 @@ array2wei.php->二维数组
 11.面向对象错误处理和异常处理
 php错误处理器(系统)，错误触发器（用户），php日志保存，异常 处理。
 
+12.php进阶-http
+fangdaolian->防盗链
+http响应详解(302 304码运用)
+302->Status Code
+304->Status Code
+Refresh->六.演示如何通过Http响应，控制浏览器间隔一定时间跳转
+cache->七.演示如何通过Http响应，控制页面缓存
+fileDown->八.文件下载(php代码)

@@ -1,0 +1,7 @@
+fangdaolian->防盗链
+http响应详解(302 304码运用)
+302->Status Code
+304->Status Code
+Refresh->六.演示如何通过Http响应，控制浏览器间隔一定时间跳转
+cache->七.演示如何通过Http响应，控制页面缓存
+fileDown->八.文件下载(php代码)
