@@ -1,0 +1,14 @@
+如果英文=>中文  中文=>英文
+create database worddb;
+create table word(
+id int primary key auto_increment,
+enword varchar(32) not null,
+chword varchar(256) not null
+)
+
+insert into word(enword,chword) values('boy','男孩');
+insert into word(enword,chword) values('school','学校');
+insert into word(enword,chword) values('word','词,话,消息');
+insert into word(enword,chword) values('book','书,预定');
+insert into word(enword,chword) values('order','预定');
+insert into word(enword,chword) values('middleschool','中学')
