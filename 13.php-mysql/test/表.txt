@@ -11,4 +11,4 @@ insert into word(enword,chword) values('school','学校');
 insert into word(enword,chword) values('word','词,话,消息');
 insert into word(enword,chword) values('book','书,预定');
 insert into word(enword,chword) values('order','预定');
-insert into word(enword,chword) values('middleschool','中学')
+insert into word(enword,chword) values('middleschool','高中学校');
