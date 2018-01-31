@@ -1,0 +1,20 @@
+如果英文=>中文  中文=>英文
+create database newsdb;
+create table news(
+id int primary key auto_increment,
+title varchar(32) not null,
+content varchar(256) not null,
+date varchar(32) not null
+)
+
+insert into news(title,content,date) values('江泽民,英语,厉害','江泽民的英语好厉害啊',"2018-1-1 20:20:20");
+insert into news(title,content,date) values('孙中山,民族,英雄','孙中山是个民族英雄',"2018-2-1 20:20:20");
+insert into news(title,content,date) values('江西,好地方','江西是个好地方',"2018-3-1 20:20:20");
+insert into news(title,content,date) values('江泽民,英语,厉害','江泽民的英语好厉害啊',"2018-1-1 20:20:20");
+insert into news(title,content,date) values('孙中山,民族,英雄','孙中山是个民族英雄',"2018-2-1 20:20:20");
+insert into news(title,content,date) values('江西,好地方','江西是个好地方',"2018-3-1 20:20:20");
+
+
+
+//模糊查询
+$sql="select enword from word where chword like '%".$ch_word."%'";

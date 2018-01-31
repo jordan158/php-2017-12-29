@@ -1,0 +1,8 @@
+mysqli_function.php->面向过程查询mysql表
+
+mysqli.php->面向对象查询mysql表
+
+mysqliDemo3.php->面向对象添加，删除，修改mysql表
+
+
+class案例->把(查询,添加,删除,修改)封装成类->（面向对象风格）

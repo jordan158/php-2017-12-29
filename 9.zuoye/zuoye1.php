@@ -3,7 +3,7 @@
 <title>作业</title>
 </head>
 <body>
-<form action="zuoye.php" method="post">
+<form action="zuoye1.php" method="post">
 请输入的层数：<input type="text" name="layer"/><br/>
 请选择形状：
 <select name="shape">
