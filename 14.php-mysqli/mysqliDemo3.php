@@ -1,14 +1,14 @@
 <?php
 
 //面向对象风格
-$mysqli=new mysqli('192.168.126.131','root','123456','test');
+$mysqli=new mysqli('192.168.126.132','root','123456','test');
 
 if($mysqli->connect_error){
 	die("连接失败".$mysqli->connect_error);
 }
 
 //添加一条记录
-$sql="insert into user1 (name,password,email,age) value('慢慢',md5('123456'),'xiaomao@gamil.com',18)";
+$sql="insert into user (name,password,email,age) value('慢慢',md5('123456'),'xiaomao@gamil.com',18)";
 //删除
 //$sql="delete from user1 where id=25";
 //update

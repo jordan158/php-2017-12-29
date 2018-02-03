@@ -6,3 +6,11 @@ mysqliDemo3.php->面向对象添加，删除，修改mysql表
 
 
 class案例->把(查询,添加,删除,修改)封装成类->（面向对象风格）
+
+
+mysqli_strong->mysqli增强
+(批量执行dml,dql语句)
+
+mysql_shiwu.php->mysql的事务处理
+
+mysqli_yuchuli.php->预编译

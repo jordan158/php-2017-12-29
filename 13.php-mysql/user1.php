@@ -9,6 +9,14 @@ email varchar(128) not null,
 age tinyint unsigned not null
 )
 
+
+
+
+
+
+
+
+
 //对一张表插入数据
 insert into user1(name,password,email,age)values('zs',md5('123456'),'zs@gmail.com',30);
 insert into user1(name,password,email,age)values('ls',md5('123456'),'ls@gmail.com',30);
